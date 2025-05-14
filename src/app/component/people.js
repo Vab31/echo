@@ -11,8 +11,8 @@ const images = [
 
 export default function People() {
   return (
-    <div className='mt-10 bg-white'>
-        <h1 className="text-center text-3xl font-bold mb-4">Meet Our Guests</h1>
+    <div className='bg-white'>
+        <h1 className="text-center text-3xl text-black font-bold mb-4">Meet Our Guests</h1>
         <p className="text-center text-gray-600 mb-8">
             Our Guests are the heart of Project Echo, bringing history to life with their expertise and passion.
         </p>
