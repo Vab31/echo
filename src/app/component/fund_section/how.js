@@ -12,22 +12,21 @@ export default function How() {
             <p className="leading-relaxed text-base">
               At Project Echo, transparency is at the heart of everything we do.
               Every contribution you make goes directly toward supporting the
-              needs of our armed forces. Your donations help provide essential
-              supplies such as protective gear and basic necessities, ensuring
-              our soldiers are well-equipped in the field. They also contribute
-              to critical medical aid, including emergency treatment, medical
-              kits, and rehabilitation support for injured personnel.
-              Additionally, funds are used to upgrade outdated technology and
+              needs of our Veterans and Indian Armed Forces. Your donations will
+              help in providing essential supplies such as protective gears,
+              groceries, wheelchairs, and other basic necessities, ensuring our
+              soldiers are well-equipped in the field and our Veterans are taken
+              care of. These funds also contribute to medical aid of the Indian
+              Army. Additionally, our aim is to upgrade outdated technology and
               improve communication tools for safer and more efficient
-              coordination. We also prioritize the welfare and morale of our
-              troops by supporting mental health, recreational kits, care
-              packages, and emotional services. Beyond the battlefield, we
-              extend support to the families of soldiers, helping them with
-              educational aid and emergency assistance when needed. We are
-              committed to regularly updating you on how your generosity is
-              making a real and lasting impact.
+              coordination. We prioritize the welfare of our brave veterans who
+              fought for the country and our Indian Army officers who continue
+              to do so. Support these real-life heroes and their families.
+              Additionally, our aim is to upgrade outdated technology and
+              improve communication tools for safer and more efficient
+              coordination. yeh line abhi remove kardo i forgot we can ask
+              Ananya tomorrow about it
             </p>
-         
           </div>
         </div>
       </section>

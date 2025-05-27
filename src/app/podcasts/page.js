@@ -1,14 +1,17 @@
 import React from 'react'
 import Nav from '../component/nav'
-import Footer from '../component/footer'
 import Podcast from '../component/podcast'
+import Footer from '../component/footer'
 
 export default function Page() {
   return (
     <div>
-        <Nav />
-        <Podcast />
-        <Footer />
+        <Nav/>
+        <Podcast/>
+        
+        <Footer/>
+
+        
     </div>
   )
 }
