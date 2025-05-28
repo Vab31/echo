@@ -6,6 +6,7 @@ import Us from "./component/us";
 import People from "./component/people";
 import Fullv from "./component/fullv";
 import Her from "./component/her";
+import Timeline from "./component/timeline";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
    <Slider/>
    <Her/>
    <Us/>
+   <Timeline/>
    <People/>
    {/* <Fullv/> */}
     <Footer/>
