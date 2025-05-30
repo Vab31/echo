@@ -106,15 +106,15 @@ export default function Podcast() {
 
 From humanitarian crises to the role of youth and policy in shaping the future, Tarun shares insightful perspectives drawn from real-world experience and activism.`}
           />
-          {/* <PodcastCard
-            name="Mrs. Pratishtha and Host Sanaya"
-            title="Unraveling the Past: A Deep Dive into History & Archaeology | Project Echo"
+          <PodcastCard
+            name="Elias Forneris and Host Sanaya"
+            title="Elias Forneris: Bridging History | PhD at Cambridge, MP Candidate 2024"
             tags={['History', 'Archaeology', 'Education', 'Civilizations']}
-            videoSrc="https://www.youtube.com/embed/zutWegaC1sY?si=DCPTOxq8hvIeEarU"
+            videoSrc="https://www.youtube.com/embed/hOBvFtgxc_0?si=6NAfp2V__pcF0LN9"
             description={`Step back in time with us as we explore the fascinating world of history and archaeology with Mrs. Pratishtha and Host Sanaya! 🏺📜 From ancient civilizations to groundbreaking discoveries, this podcast delves into the secrets of the past, uncovering the stories that shaped humanity.
 
 Join us on this journey through time and uncover the hidden gems of history! Don’t forget to like, comment, and subscribe for more insightful discussions.`}
-          /> */}
+          />
         </div>
       </div>
     </section>

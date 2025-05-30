@@ -16,7 +16,7 @@ export default function Home() {
    <Her/>
    <Us/>
    <Timeline/>
-   <People/>
+   {/* <People/> */}
    {/* <Fullv/> */}
     <Footer/>
   </div>
