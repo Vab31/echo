@@ -14,8 +14,8 @@ export default function Nav() {
       
       <nav class="flex flex-wrap items-center text-base justify-center md:justify-end space-x-5">
         <a class="hover:text-gray-900" href="/">Home</a>
-        <a class="hover:text-gray-900" href="/fundraising">FundRaising</a>
-        <a class="hover:text-gray-900" href="/podcasts">Podcast</a>
+        <a class="hover:text-gray-900" href="/fundraising">Patronage</a>
+        <a class="hover:text-gray-900" href="/podcasts">Promotion</a>
         <a class="hover:text-gray-900" href="#about">About</a>
       </nav>
     </div>

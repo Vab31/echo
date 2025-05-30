@@ -2,9 +2,9 @@
 import { motion } from 'framer-motion';
 
 const timelineData = [
-  { label: '1', description: 'Read a Book on Indian history' },
+  { label: '1', description: 'Read a Book "Kargil: From Surprise to Victory" by Gen. V.P. Malik on Indian history' },
   { label: '2', description: 'Started Podcast to connect with people and discuss history' },
-  { label: '3', description: 'Operation Sindoor (a military operation against terrorism) sparked my interest in war and the defense forces.' },
+  { label: '3', description: 'Operation Sindoor made me explore Indian Army lives, stories, and families.' },
   { label: '4', description: 'Two interviews with Army Veterans' },
   { label: '5', description: 'Interview with Support Our Heros.' },
 ];
