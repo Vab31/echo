@@ -8,9 +8,9 @@ import { Autoplay } from 'swiper/modules';
 
 export default function Slide() {
   const slides = [
-    { src: '/images/ndf.png' },
-    { src: '/images/s1.png' },
-    { src: '/images/s2.png' },
+    { src: '/images/s3.jpg' },
+    { src: '/images/s1.jpg' },
+    { src: '/images/s2.jpg' },
   ];
 
   return (

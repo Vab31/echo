@@ -2,11 +2,13 @@
 import { motion } from 'framer-motion';
 
 const timelineData = [
-  { label: '1', description: 'Read a Book "Kargil: From Surprise to Victory" by Gen. V.P. Malik on Indian history' },
-  { label: '2', description: 'Started Podcast to connect with people and discuss history' },
-  { label: '3', description: 'Operation Sindoor made me explore Indian Army lives, stories, and families.' },
-  { label: '4', description: 'Two interviews with Army Veterans' },
-  { label: '5', description: 'Interview with Support Our Heros.' },
+{ label: '1', description: 'Read "Kargil: From Surprise to Victory" in Summer 2024'},
+{ label: '2', description: 'Started Project Echo to unravel history' },
+{ label: '3', description: 'Operation Sindoor made me explore the lives of the Indian Army, their stories, and & their families.' },
+{ label: '4', description: 'Interview with Elias Forneris: Bridging History | PhD at Cambridge, MP Candidate 2024' },
+{ label: '5', description: 'Interview with Army Veteran Lt. Col. Tarun Bhasin in Summer 2025' },
+{ label: '6', description: 'Interview with Army Veteran Brigadier Satish Sawhney ' },
+{ label: '7', description: 'Interview with Support Our Heroes; an NGO supporting the Indian Army ' },
 ];
 
 export default function Timeline() {

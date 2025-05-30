@@ -6,7 +6,7 @@ export default function How() {
   <section className="text-gray-600 body-font bg-white">
     <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
       <h2 className="sm:text-3xl text-2xl text-gray-900 font-bold title-font mb-2 md:mb-0 md:w-2/5">
-        Where your donations will go?
+        Where your donations will go
       </h2>
       <div className="md:w-3/5 md:pl-6">
         <p className="leading-relaxed text-base text-center md:text-left">
