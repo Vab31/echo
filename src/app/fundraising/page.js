@@ -4,6 +4,8 @@ import Nav  from '../component/nav'
 import Footer from '../component/footer'
 import How from '../component/fund_section/how'
 import Slide from '../component/fund_section/fund_slider'
+import SupportHeroSection from '../component/fund_section/donate'
+
 
 
 export default function Page() {
@@ -11,6 +13,7 @@ export default function Page() {
     <div>
         <Nav/>
         <Slide/>
+        <SupportHeroSection/>
         <Heromission/>
         <How/>
         <Footer/>
