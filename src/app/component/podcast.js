@@ -1,43 +1,3 @@
-// import React from 'react'
-
-// export default function Podcast() {
-//     return (
-//         <div>
-//             {/* Podcast 1 */}
-//             <h1 class="text-3xl font-bold text-center mt-10 mb-5">Speaker</h1>
-//             <section class="text-gray-600 body-font bg-white">
-//                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-//                     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-//                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Echoing Forgotten Voices:
-//                             <br class="hidden lg:inline-block" />A Conversation with Pratishtha Mukerjee</h1>
-//                             <p class="mb-8 leading-relaxed">In this engaging episode of Project Echo, we dive deep into India’s layered past with Pratishtha Mukerjee. From lesser-known stories to new interpretations of well-known events, this conversation breathes new energy into how we remember our history. Perfect for anyone seeking history that resonates beyond textbooks.</p>
-                          
-//                     </div>
-//                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-//                     <div className="w-full aspect-video max-w-3xl mb-6">
-//             <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-//               <iframe
-//                 src="https://player.vimeo.com/video/1080761363?h=926c0fac86&badge=0&autopause=0&player_id=0&app_id=58479"
-//                 frameBorder="0"
-//                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-//                 style={{
-//                   position: 'absolute',
-//                   top: 0,
-//                   left: 0,
-//                   width: '100%',
-//                   height: '100%',
-//                 }}
-//                 title="Interview with Ms. Pratishtha Mukerjee"
-//               />
-//             </div>
-//           </div>
-//                     </div>
-//                 </div>
-//             </section>
-//         </div>
-//     )
-// }
-
 
 "use client";
 
@@ -99,10 +59,10 @@ export default function Podcast() {
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
           <PodcastCard
             name="Army Veteran Lt. Col. Tarun Bhasin (Founder, One World Foundation)"
-            title="War & Impact: Echo Podcast"
+            title="War & Impact: The Project Echo Podcast"
             tags={['Military', 'Leadership', 'Peace', 'Youth Empowerment']}
             videoSrc="https://www.youtube.com/embed/CzcsaAnrH-s?si=hdVzqBt4N4e5B3Ri"
-            description={`In this powerful episode of Echo Podcast, we sit down with Tarun Bhasin, the Founder of One World Foundation, to dive deep into the pressing realities of war, its global implications, and the urgent need for peace and unity.
+            description={`In this powerful episode of The Project Echo Podcast, we sit down with Tarun Bhasin, the Founder of One World Foundation, to dive deep into the pressing realities of war, its global implications, and the urgent need for peace and unity.
 
 From humanitarian crises to the role of youth and policy in shaping the future, Tarun shares insightful perspectives drawn from real-world experience and activism.`}
           />
@@ -115,6 +75,44 @@ From humanitarian crises to the role of youth and policy in shaping the future, 
 
 Join us on this journey through time and uncover the hidden gems of history! Don’t forget to like, comment, and subscribe for more insightful discussions.`}
           />
+
+          <PodcastCard
+  name="Veteran Pawan‑jit Ahluwalia (Chairperson, Premier Consultancy & Investigation Pvt. Ltd.)"
+  title="Discipline, Defence & Destiny: The Project Echo Podcast"
+  tags={['Army Veteran', 'Security Leadership', 'Entrepreneurship', 'Risk Management']}
+  videoSrc="https://www.youtube.com/embed/PHn9sEOrG6Y"
+  description={`In this insightful episode of The Project Echo Podcast, we are joined by Veteran Pawan‑jit Ahluwalia—former army officer and Chairperson of Premier Consultancy & Investigation Pvt. Ltd.—as he reflects on his remarkable journey from the armed forces to leading one of India’s top private security networks.
+
+With decades of experience in defence, investigation, and leadership, Mr. Ahluwalia shares timeless lessons on discipline, resilience, and building trust in high-stakes environments. This episode explores how military values shape strong institutions and empower purpose-driven entrepreneurship.
+
+Tune in for a masterclass in courage, strategy, and service.`}
+/>
+
+<PodcastCard
+  name="Major Reenu Ohlan (Retd.) – Army Veteran & Senior Leader in Administration"
+  title="Beyond the Uniform: The Project Echo Podcast"
+  tags={['Army Veteran', 'Women in Leadership', 'Resilience', 'Service']}
+  videoSrc="https://www.youtube.com/embed/XiYvdKv4_ho"
+  description={`In this heartfelt episode of The Project Echo Podcast, I (Sanaya) sit down with Major Reenu Ohlan (Retd.), a decorated Indian Army veteran and now a senior leader in infrastructure and facilities management. From her 8 years of distinguished service in the armed forces to her civilian leadership roles at institutions like NABARD, The Lawrence School Sanawar, and DMI Finance—Major Reenu’s journey is one of courage, resilience, and service.
+
+We talk about her experience as a woman officer in the Army. Her words offer not only inspiration but also a raw, powerful look into life beyond the uniform.
+A moving tribute to service, sacrifice, and strength—don’t miss this conversation.`}
+/>
+
+
+
+<PodcastCard
+  name="Brigadier Satish Sawhney (Retd.) – Indian Army Veteran"
+  title="The War Within: The Project Echo Podcast"
+  tags={['Army Veteran', 'PTSD', 'Leadership', 'Mental Health']}
+  videoSrc="https://www.youtube.com/embed/3M6Gi6vcci0"
+  description={`In this emotional and eye-opening episode of The Project Echo Podcast, host Sanaya is joined by Brigadier Satish Sawhney (Retd.), a decorated Indian Army veteran with over 34 years of service, including commanding roles in the Kargil and Northeast sectors.
+
+Brig. Sawhney shares his raw and heartfelt perspective on the unseen scars of war—addressing PTSD, emotional trauma, and the toll that conflict takes on a soldier’s mind and body. From leadership under fire to healing in silence, this episode goes beyond medals and uniforms to explore the lasting impact of war on the human spirit.
+
+A profound conversation about loss, courage, and the battle that continues long after the battlefield fades.`}
+/>
+
         </div>
       </div>
     </section>
